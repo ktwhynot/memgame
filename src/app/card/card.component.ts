@@ -40,7 +40,6 @@ export class CardComponent {
     });
 
     this.cardImg = this.getCardImg();
-    console.log(this.cardImg);
   }
 
   // get the image path for the card
