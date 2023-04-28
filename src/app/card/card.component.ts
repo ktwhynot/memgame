@@ -49,7 +49,7 @@ export class CardComponent {
   // eg. heart_1.png, diamond_2.png, spade_jack.png, club_queen.png
   getCardImg(): string {
     if (this.card) {
-      return `/assets/cards/${suitToString(this.card.suit)}_${faceToString(this.card.face)}.png`;
+      return `./assets/cards/${suitToString(this.card.suit)}_${faceToString(this.card.face)}.png`;
     }
     return '';
   }

@@ -1,4 +1,4 @@
 <div [ngClass]="{'card': true, 'hidden-card': !visible, 'red': card?.suit == cardSuits.Diamonds || card?.suit == cardSuits.Hearts, 'highlight': highlighted}" (click)="sendCardToService()">
   <img *ngIf="visible" src={{cardImg}} />
-  <img *ngIf="!visible" src="/assets/cards/back-black.png" />
+  <img *ngIf="!visible" src="./assets/cards/back-black.png" />
 </div>
